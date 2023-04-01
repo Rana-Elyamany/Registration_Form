@@ -1,0 +1,290 @@
+body{
+    background-color: #EEF5FF !important;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+}
+.section .container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #8E8E98;
+}
+.section .container  .row{
+    margin: 0!important;
+    width: 100%;
+}
+
+.section .container  .row .prt1{
+    
+    background-image: url(../assets/images/bg-sidebar-desktop.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    border-radius: 25px;  
+}
+.section .container .row .prt1 div{
+    margin:15px 5px;
+    padding: 5px 25px;
+    position: relative;
+    
+}
+.section .container .row .prt1 div span{
+    position: absolute;
+    top: 5px;
+    left: -7px;
+    color: white;
+    width: 26px;
+    height: 26px;
+    border: 1px solid white;
+    border-radius:50%;
+    padding-left: 8px;
+}
+.section .container .row .prt1 div #inf{
+    margin-bottom: 0 !important;
+    color: white;
+}
+#info{
+    color: #8E8E98;
+}
+
+.section .container .row .prt2 form div h1{
+    color:#002B5C;
+
+}
+.section .container .row .prt2 form div .form-group label{
+    color: #093e7b;
+    font-size: 18px;
+    font-weight: 700;
+}
+.section .container .row .prt2 form div .form-group label span{
+    font-size: 16px !important;
+}
+.section .container .row .prt2 form div  button{
+    background-color: #03295A;
+    color: white;
+    border-radius: 5px;
+}
+.section .container .row .prt2 form .page2 #planes{
+    border: 1px solid #D9D9DB;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding:10px 10px 15px 10px;
+}
+.section .container .row .prt2 form .page2 #planes:hover{
+    border: 1px solid #544C95 ;
+}
+.section .container .row .prt2 form .page2 #planes .pi{
+    margin-bottom: 15px !important;
+}
+.section .container .row .prt2 form .page2 div p{
+    color: #01295C ;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+
+}
+.section .container .row .prt2 form .page2 div p i{
+    padding-left: 8px;
+    padding-top: 10px;
+    margin: 15px 5px;
+}
+.fa-chess-pawn{
+    background-color: #FFB286;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding-left: 15px !important;
+}
+.fa-gamepad{
+    background-color: #FE808C;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.fa-vr-cardboard{
+    background-color: #4F44FF;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.section .container .row .prt2 form .page2 .row .toggle{
+    background-color: #F8F9FE;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+.section .container .row .prt2 form .page2 .row .toggle span{
+    font-weight: 600 !important;
+    color: #8E8E98 ;
+}
+.section .container .row .prt2 form .page2 .row .toggle .togglebar{
+    
+    border-radius: 50px;
+    background-color:#01295C;
+    box-shadow: inset 0 8px 60px rgba(0,0,0,0.2),
+                inset 0 8px 8px rgba(0,0,0,0.2),
+                inset 0 -4px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+    padding: 6px 6PX 6PX 6PX !important ;
+    height: 25px;
+}
+.section .container .row .prt2 form .page2 .row .toggle .togglebar .indecator{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    width: 13px;
+    height: 20px;
+    
+}
+.section .container .row .prt2 form .page3 .row .form-group{
+    padding:10px 5px 10px 12px;
+    border-radius: 15px;
+    border: 1px solid #D9D9DB;
+    margin-bottom: 5px !important;
+
+}
+.section .container .row .prt2 form .page3 .row .form-group:hover{
+    border: 1px solid #544C95 ;
+
+}
+.section .container .row .prt2 form .page3 .row div label{
+    font-weight: 600;
+}
+.section .container .row .prt2 form .page3 .row .form-group #p3_p{
+    color: #8E8E98 !important ;
+    padding-left: 15px;
+}
+#row4{
+    padding: 5px;
+}
+#p4_div{
+    padding: 10px 14px;
+    background-color:#F8F9FE ;
+
+}
+/* .section .container .row .prt2 form .page3 .row .btns{
+    margin-top: 20px;
+    padding-top: 10px;
+} */
+.show{
+    display: block !important;
+}
+.hide{
+    display: none;
+}
+.span_bg{
+    background-color:#BDE2FF ;
+    color: black !important;
+}
+.d_flex{
+    display: flex;
+}
+.planes_bg{
+    border: 1px solid #544C95 !important;
+    background-color: #6158a737 ;
+}
+.add_bg{
+    border: 1px solid #544C95 !important;
+    background-color: #6158a737 !important;
+}
+.span_indecator{
+   color:#01295C !important; 
+}
+.moveindecator{
+    position: absolute !important;
+    left: 40% !important;
+}
+.section .container .row .prt2  .page5 #row5 div .DIVicon{
+   margin:15px auto !important;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #F9818B;
+}
+.fa-check{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    border-radius: 50% !important;
+    background-color: #fff;
+    color:#F9818B ;
+    font-size: 25px;
+    font-weight: 900;
+    box-shadow: 0px 5px 10px #5b3336e2;
+
+}
+@media (max-width:1199.3px) {
+    .moveindecator{
+        position: absolute !important;
+        left: 60% !important;
+    }
+    .section{
+        margin:0px 0px 10px 0px !important;
+        padding: 0px 7px 5px 7px !important;
+    }
+    .section .container .row .prt1{
+        display: flex;
+        background-size: 100% !important;
+        background-position: 50% 83%;
+        border-radius: 0px;
+        padding: 25px 0 50px;
+        justify-content: center;
+    }
+    .section .container {
+        padding: 0px  !important;
+        margin-top: 0px !important;
+    }
+    /* .section .container .row .prt1 div #info{ */
+        #inf{
+        display: none !important;
+    }
+}
+@media (max-width:991.3px) {
+    .moveindecator{
+        position: absolute !important;
+        left: 44% !important;
+    }
+}
+@media (max-width:767.6px) {
+    .moveindecator{
+        position: absolute !important;
+        left: 60% !important;
+    }
+    .section .container .row .prt1{
+        padding: 25px 0 50px;
+
+    }
+}
+@media (max-width:575.7px) {
+    .moveindecator{
+        position: absolute !important;
+        left: 59% !important;
+    }
+}
+@media (max-width:486.6px) {
+    .moveindecator{
+        position: absolute !important;
+        left: 50% !important;
+    }
+}
+@media (max-width:420px) {
+    .moveindecator{
+        position: absolute !important;
+        left: 45% !important;
+    }
+}
+  @media (max-width:376.8px) {
+    .moveindecator{
+        position: absolute !important;
+        left: 0% !important;
+    }
+}

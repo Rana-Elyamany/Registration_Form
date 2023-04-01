@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/wow/animate.css">
+    <link rel="stylesheet" href="./assets/wow/animate.min.css">
+    <title>Rigister</title>
+</head>
+<body>
+    <div class="section py-3">
+        <div class="container my-5">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-12 col-md-12 prt1 col-sm-12 prt1">
+                         <div>
+                            <span class="span_bg" id="#span1">1</span>
+                            <p id="inf">STEP 1</p>
+                            <p style="font-weight: 700;font-size: 14px; letter-spacing: 2px;" id="inf">YOUR INFO</p>
+                         </div>
+                         <div>
+                            <span id="#span2">2</span>
+                            <p id="inf">STEP 2</p>
+                            <p style="font-weight: 700;font-size: 14px; letter-spacing: 2px;" id="inf">SELECT PLANE</p>
+                         </div>
+                         <div>
+                            <span id="#span3">3</span>
+                            <p id="inf">STEP 3</p>
+                            <p style="font-weight: 700;font-size: 14px; letter-spacing: 2px;" id="inf">ADD-ONS</p>
+                         </div>
+                         <div>
+                            <span id="#span4">4</span>
+                            <p id="inf">STEP 4</p>
+                            <p style="font-weight: 700;font-size: 14px; letter-spacing: 2px;" id="inf">SUMMARY</p>
+                         </div>
+                    </div>
+                    <div class="col-xl-8 prt2" >
+                        <form class="my-5" name="myform" method="post" action="" id="formId">
+                            <div class="mb-5">
+                                <h1  id="header">Personal Info</h1>
+                                <p id="info">Please Provide Your name,email address and phone number</p>
+                            </div>
+                            <div class="register">
+                                <div class="form-group" id="formgroup">
+                                    <label for="" id="label_form" class="">Name <span id="Valid_Name" class="text-danger  font-weight-normal font-size-small"></span></label>
+                                    <input type="text" name="name" id="name" placeholder="e.g.Stephen King" class="form-control col-xl-11" required minlength="3" maxlength="30">
+                                </div>
+                                <div class="form-group " id="formgroup">
+                                    <label for="" id="label_form" class="">Email Address <span id="Valid_Email" class="text-danger  font-weight-normal"> </span></label>
+                                    <input type="email" name="email" id="email" placeholder="e.g.StephenKing@gmail.com" class="form-control col-xl-11" required>
+                                </div>
+                                <div class="form-group " id="formgroup">
+                                    <label for="" id="label_form" class="">Phone Number <span id="Valid_Phone" class="text-danger  font-weight-normal"> </span></label>
+                                    <input type="text" name="phone" id="phone" placeholder="e.g. +1234567890" class="form-control col-xl-11" required >
+                                </div>
+                                <div class="text-right col-xl-11 mt-5">
+                                    <button class="btn1 btn m-auto" type="button" id="#btn1" name="confirm">Next Step</button>
+                                </div>
+                            </div> 
+                            <div class="page2 hide" id="page2"> 
+                                <div class="row r-page2" id="row2">
+                                    <div class="col-xl-3" id="planes">
+                                        <p id="Paragraph" class="pi"><i class="fa-solid fa-chess-pawn" ></i></p>
+                                        <p id="Paragraph">Arcade</p>
+                                        <p id="pay1" class="monthly1" style="color: #999A9E;">$9/mo</p>
+                                    </div>
+                                    <div class="col-xl-3" id="planes">
+                                        <p id="Paragraph" class="pi"><i class="fa-solid fa-gamepad"></i></p>
+                                        <p id="Paragraph">Advanced</p>
+                                        <p id="pay2" class="monthly2" style="color: #999A9E;">$12/mo</p>
+                                    </div>
+                                    <div class="col-xl-3" id="planes">
+                                        <p id="Paragraph" class="pi"><i class="fa-solid fa-vr-cardboard"></i></p>
+                                        <p id="Paragraph">Pro</p>
+                                        <p id="pay3" class="monthly3" style="color: #999A9E;">$15/mo</p>
+                                    </div>
+                                    <div class="col-xl-11 d-flex justify-content-center toggle">
+                                        <span class="col-xl-2 span_indecator" id="span_indecator">Monthly</span>
+                                        <div class="togglebar col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2 d-flex">
+                                            <div class="indecator col-xl-1">
+
+                                            </div>
+                                        </div>
+                                        <span class="col-xl-2" id="span_indecator">yearly</span>
+                                    </div>
+                                </div> 
+
+                                <div class=" col-xl-11 mt-5 btns2">
+                                    <button class="btn m-auto btn2" type="button" style="color: #999A9E;background-color: transparent;font-weight: 700;">Go Back</button>
+                                    <button class="btn3 m-auto btn  float-right " type="button">Next Step</button>
+                                </div>
+                            </div> 
+                            <div class="page3 hide" id="page3">
+                                <DIV class="row" id="row3"> 
+                                    <div class="form-group col-xl-11 add_bg" id="p3_div">
+                                        <input type="checkbox" id="p3_input" checked >
+                                        <label for=""id="p3_label">Online services</label>
+                                        <p class="" id="p3_p">Access To Multiplayer Games
+                                            <span class="float-right" id="payment1"> +$1/mo</span>
+                                        </p>
+                                    </div>
+                                    <div class="form-group col-xl-11" id="p3_div">
+                                        <input type="checkbox"  id="p3_input">
+                                        <label for=""id="p3_label">Larger Storage</label>
+                                        <p class="" id="p3_p">Extra 1TB of cloud Save
+                                            <span class="float-right" id="payment2"> +$2/mo</span>
+                                        </p>
+                                    </div>
+                                    <div class="form-group col-xl-11" id="p3_div">
+                                        <input type="checkbox"  id="p3_input">
+                                        <label for="" id="p3_label">Customizable profile</label>
+                                        <p class=""id="p3_p">Access To Multiplayer Games
+                                            <span class="float-right"id="payment3"> +$2/mo</span>
+                                        </p>
+                                    </div>
+                                    <div class=" col-xl-11 mt-5  btns2">
+                                        <button class="btn  btn4" id="btn4"type="button" style="color: #999A9E;background-color: transparent;font-weight: 700;">Go Back</button>
+                                        <button class="btn5 btn  float-right " id="btn5" type="button">Next Step</button>
+                                    </div>
+                              </DIV>
+                            </div>   
+                            <div class="page4 hide h-100" id="page4">
+                                <div class="row" id="row4">
+                                    <div class="col-xl-11" id="p4_div">
+                                        <p class=" d-inline" id="p4_p1" style="color: #2A3F5C;font-weight: 700;">
+                                             
+                                        </p>
+                                        <span class="float-right" id="p4_span1" style="color: #0018b2;">
+                                            
+                                        </span>
+                                        <hr style="color: black;">
+                                    </div>
+                                    <div class="col-xl-11" id="p4_div">
+                                        <p class=" d-inline" id="p4_p2" style="color: #9B9BA3;">
+                                            
+                                        </p>
+                                        <span class="float-right" id="p4_span2" style="color: #0018b2;"> </span>
+                                    </div>
+                                    <div class="col-xl-11" id="p4_div">
+                                        <p class=" d-inline" id="p4_p3" style="color: #9B9BA3;">
+                                            
+                                        </p>
+                                        <span class="float-right" id="p4_span3" style="color: #0018b2;"></span>
+                                    </div>
+                                    <div class="col-xl-11" id="p4_div">
+                                        <p class=" d-inline" id="p4_p4" style="color: #9B9BA3;">
+                                        </p>
+                                        <span class="float-right" id="p4_span4" style="color: #0018b2;"></span>
+                                    </div>
+                                    <div class="col-xl-11" id="p4_div">
+                                        <p class=" d-inline" id="p4_p5" style="color: #9B9BA3;">
+                                        </p>
+                                        <span class="float-right" id="p4_span5" style="color: #0018b2;"></span>
+
+                                    </div>
+                                    <div class=" col-xl-11 mt-5  btns2">
+                                        <button class="btn  btn6" id="btn6"type="button" style="color: #999A9E;background-color: transparent;font-weight: 700;">Go Back</button>
+                                        <button class="btn7 btn  float-right " id="btn7" type="submit">Confirm</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </form> 
+                        <div class="page5 hide m-auto py-5" id="page5">
+                            <div class="row text-center m-auto justify-content-center mt-3 flex-wrap d-flex" id="row5">
+                                <div class="col-xl-11 justify-content-center ">
+                                    <div class="DIVicon text-center col-xl-2 col-4 col-sm-4 col-md-2 col-lg-2 row" id="">
+                                        <i class="fa-solid fa-check align-items-center pt-2"></i>    
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xl-11">
+                                    <h1 class="my-5" style="color: #002B5C;">
+                                        Thank you !
+                                    </h1>
+                                    <p style="color: #999A9E; " class="mt-4 mb-5 col-xl-9 col-12 text-center mx-auto">
+                                        Thanks For confirming your subscription! We hope you have fun using our platform.If you ever need support,please feel free to email us at support@loremgaming.com .
+                                    </p>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="./assets/wow/wow.min.js"></script>
+    <script src="./assets/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
